@@ -9,16 +9,16 @@
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="index.php">PHP</a>
+    <a class="navbar-brand" href="index.php">Library</a>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="index.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="create.php">Add New Borrow</a>
+          <a class="nav-link" href="create.php">Click Here To Add New Borrow</a>
         </li>
       </ul>
     </div>
@@ -29,8 +29,8 @@
   <thead>
     <tr>
       <th scope="col">ID</th>
-      <th scope="col">Name Borrower</th>
-      <th scope="col">EMAIL</th>
+      <th scope="col">NAME BORROWER</th>
+      <th scope="col">EMAIL STUDENT </th>
       <th scope="col">Phone Number</th>
        <th scope="col">Borrow_Date</th>
         <th scope="col">ACTION</th>
