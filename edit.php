@@ -1,7 +1,6 @@
 <?php
 include "connection.php";
 
-// Initialize variables
 $id = "";
 $name = "";
 $email = "";

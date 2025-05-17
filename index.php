@@ -55,6 +55,7 @@ while ($row = $result->fetch_assoc()) {
       <td>
         <a class='btn btn-primary' href='edit.php?id={$row['id']}'>Edit</a>
         <a class='btn btn-danger' href='Delete.php?id={$row['id']}'>Delete</a>
+        
       </td>
     </tr>";
 }
