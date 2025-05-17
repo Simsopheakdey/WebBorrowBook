@@ -32,7 +32,7 @@
       <th scope="col">Name Borrower</th>
       <th scope="col">EMAIL</th>
       <th scope="col">Phone Number</th>
-       <th scope="col">Join_date</th>
+       <th scope="col">Borrow_Date</th>
         <th scope="col">ACTION</th>
     </tr>
   </thead>
