@@ -11,7 +11,7 @@ if (isset($_GET['id'])) {
     $conn->query($sql);
 
     // Redirect back to index after deleting
-    header('Location:/php1/index.php');
+    header('Location: index.php');
     exit;
 }
 ?>

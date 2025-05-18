@@ -6,17 +6,17 @@ if (isset($_POST['submit'])) {
     $email = $_POST['email'];
     $phone = $_POST['phone'];
 
-    $q = "INSERT INTO php1 (name, email, phone) VALUES ('$name', '$email', '$phone')";
+    $q = "INSERT INTO php1 (Name, Email, Phone) VALUES ('$name', '$email', '$phone')";
     $query = mysqli_query($conn, $q);
 
     if ($query) {
         echo "Record inserted successfully.";
+        header("location: index.php");
     } else {
         echo "Error: " . mysqli_error($conn);
     }
 }
 ?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -76,22 +76,5 @@ if (isset($_POST['submit'])) {
     </div>
   </form>
 </div>
-
-        <br>
-        <label>NAME:</label>
-        <input type="text" name="name" class="form-control">
-        <br>
-        <label>EMAIL:</label>
-        <input type="text" name="email" class="form-control">
-        <br>
-        <label>PHONE:</label>
-        <input type="text" name="phone" class="form-control">
-        <br>
-        <button class="btn btn-success" type="submit" name="submit">Submit</button>
-        <a class="btn btn-info" href="index.php">Cancel</a>
-        <br><br>
-      </div>
-    </form>
-  </div>
 </body>
 </html>
